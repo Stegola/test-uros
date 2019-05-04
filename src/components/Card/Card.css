@@ -1,0 +1,96 @@
+.card-outer-wrapper {
+	width: 230px;
+	margin-top: 20px;
+	border-radius: 5px;
+	margin: 20px 20px 0px;
+}
+
+.card-wrapper {
+	display: inline-block;
+	border: 1px solid #ededed;
+	border-top: 0px;
+}
+
+.card-heading {
+	text-align: center;
+	border: 1px solid #ededed;
+	padding: 13px 0px 4px;
+	border-radius: 5px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+.card-heading-LightBlue {
+	text-align: center;
+	border-bottom: 1px solid #ededed;
+	padding: 13px 0px 4px;
+	background-color: #e8f0f2;
+	border-radius: 5px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+
+.card-heading h4 {
+	font-size: 16px;
+}
+
+.card-heading-LightBlue h4 {
+	font-size: 16px;
+	color: #0096bf;
+}
+
+.card-body-heading-list {
+	min-height: 194px;
+}
+.card-body-heading-list h6 {
+	text-align: center;
+	font-size: 12px;
+	color: #919191;
+	font-weight: normal;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 0px 8px;
+}
+
+.card-body-ul {
+	padding: 0px;
+	margin: 0px;
+	margin-left: 30px;
+}
+.card-body-heading-list ul li {
+	font-size: 12px;
+	margin: 5px 0px;
+}
+
+.card-footer-wrapper {
+	text-align: center;
+}
+
+.card-footer-wrapper-mgT20 {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.card-footer-btn-div {
+	margin: 20px auto;
+}
+.select-btn {
+	padding: 6px 30px;
+	background-color: white;
+	border: 1px solid lightgray;
+	border-radius: 50px;
+	outline: none;
+	font-size: 14px;
+}
+.select-btn-bgc-blue {
+	background-color: #667fa5;
+	color: #fff;
+}
+
+.select-btn:focus {
+	outline: none;
+}
+.disp-none {
+	display: none;
+	color: white;
+}
+/* color bg for btn #667fa5 */

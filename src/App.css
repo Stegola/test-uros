@@ -1,0 +1,77 @@
+.app {
+	position: relative;
+}
+
+h1 {
+	font-size: 30px;
+	padding: 20px 0px 0px 20px;
+}
+.next-btn-wrapper {
+	width: 180px;
+	margin: 0px auto;
+	text-align: center;
+	margin-top: 50px;
+	display: flex;
+	margin-bottom: 50px;
+}
+
+.next-btn {
+	background-color: #667fa5;
+	border: none;
+	color: #fff;
+	padding: 7px 40px;
+	font-size: 13px;
+	border-radius: 4px;
+	cursor: pointer;
+}
+.next-btn:disabled {
+	cursor: default;
+	background-color: #8eb0e2;
+}
+.next-btn:focus {
+	outline: none;
+}
+
+.next-btn .next-btn-chech-sign {
+	margin-left: 5px;
+}
+.next-btn-back-span {
+	margin-left: 10px;
+	padding-top: 8px;
+	font-size: 12px;
+	cursor: pointer;
+}
+.next-btn-back-span-color-blue {
+	color: blue;
+}
+.template-count-div {
+	position: absolute;
+	top: 75px;
+	left: 94px;
+	font-size: 14px;
+	color: blue;
+}
+.product-count-div {
+	position: absolute;
+	top: 75px;
+	left: 192px;
+	font-size: 14px;
+	color: blue;
+}
+
+.nav-tabs .nav-link:focus,
+.nav-tabs .nav-link:hover {
+	border: none;
+}
+
+.nav-tabs .nav-link.active {
+	border: none;
+	border-bottom: 3px solid blue;
+}
+.nav-tabs .nav-link.active {
+	color: blue;
+	outline: none;
+}
+.nav-link {
+	color: #919191;
+}
